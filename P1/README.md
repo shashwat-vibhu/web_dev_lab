@@ -1,31 +1,34 @@
 # P1 – Terminal and Folder Navigation
 
 ## Aim
-Create a project folder and practise terminal commands.
+Create a project folder, navigate through it using terminal commands, and verify the files and folders.
 
-## Commands
+## Commands Executed
 ```bash
-cd ~/Desktop
-mkdir WebProject
-cd WebProject
-pwd
-mkdir css images js
+mkdir p1
+cd p1
+mkdir images css js
+touch index.html
 ls
-cd css
-cd ..
 ```
 
 ## Explanation
-- `cd`: change directory.
-- `mkdir`: create a folder.
-- `pwd`: show current path.
-- `ls`: list files and folders.
-- `cd ..`: move to parent folder.
+- `mkdir p1`: creates the P1 project folder.
+- `cd p1`: moves into the P1 folder.
+- `mkdir images css js`: creates the three subfolders.
+- `touch index.html`: creates an HTML file.
+- `ls`: lists the contents of the current folder.
 
-## Expected structure
+## Result
+The terminal listing confirmed the following structure:
+
 ```text
-WebProject/
+p1/
 ├── css/
 ├── images/
+├── index.html
 └── js/
 ```
+
+## Screenshot Evidence
+The terminal screenshot showing the executed commands and the `ls` output is available in the practical work session. It has not been added as a repository image yet.
